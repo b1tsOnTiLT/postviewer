@@ -38,7 +38,7 @@ async addFile({ id, file, cached, isPublic}) {
 
 ### 2) Render pipeline (SCF URL + shim)
 
-Selecting a file (click or `#<N>` deep-link) kicks off the SCF flow. The app computes a hash from product + salt + origin, base36’d and fixed-width, to build the **shim URL**:
+Selecting a file (click or `#<N>` ) kicks off the SCF flow. The app computes a hash from product + salt + origin, base36’d and fixed-width, to build the **shim URL**:
 
 ```js
 async function calculateHash(...parts) {
@@ -115,7 +115,7 @@ async function renderFile({ id, cached, file }, safeFrameIframe) {
 }
 ```
 
-### 5) `#<N>` deep-link 
+### 5) `#<N>` 
 
 The app can auto-open a file at load if the URL ends in `#<index>`.
 
