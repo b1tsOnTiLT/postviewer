@@ -133,7 +133,7 @@ So when our exploit runs, the **flag file already exists** in IndexedDB, and its
 ---
 
 <<figure style="text-align:center; margin:1rem 0;">
-  <img src="mainbot"  width="720" style="height:auto; max-width:100%;">
+  <img src="mainbot.png"  width="720" style="height:auto; max-width:100%;">
   
 </figure>
 
