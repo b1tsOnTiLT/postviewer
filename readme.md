@@ -31,8 +31,9 @@ async addFile({ id, file, cached, isPublic}) {
   });
 }
 ```
-<figure style="text-align:center; margin:1.25rem 0;">
-  <img src="mainpage.png" style="max-width:100%; height:auto;">
+<figure style="text-align:center; margin:1rem 0;">
+  <img src="mainpage.png"  width="720" style="height:auto; max-width:100%;">
+
 </figure>
 
 
@@ -131,9 +132,11 @@ So when our exploit runs, the **flag file already exists** in IndexedDB, and its
 
 ---
 
-<figure style="text-align:center; margin:1.25rem 0;">
-  <img src="mainbot.png" style="max-width:100%; height:auto;">
+<<figure style="text-align:center; margin:1rem 0;">
+  <img src="mainbot"  width="720" style="height:auto; max-width:100%;">
+  
 </figure>
+
 
 ## The Race Condition 
 
@@ -304,13 +307,18 @@ I was using Arch which gave me 2 separate headaches:
 
 Fix: spin a tiny **Ubuntu 22.04** VM on Goggle Cloud with a **public IP**, open HTTP.
 
-<figure style="text-align:center; margin:1.25rem 0;">
-  <img src="server.png"  style="max-width:100%; height:auto;">
-</figure> 
+<figure style="text-align:center; margin:1rem 0;">
+  <img src="server.png"  width="720" style="height:auto; max-width:100%;">
+ 
+</figure>
+
 
 ### Flag:
 
-<figure style="text-align:center; margin:1.25rem 0;">
-  <img src="mainflag.png"  style="max-width:100%; height:auto;">
+<figure style="text-align:center; margin:1rem 0;">
+  <img src="mainflag.png"  width="720" style="height:auto; max-width:100%;">
+ 
+</figure>
+
 </figure>
 ```
